@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="0dp"
+    tools:context="activity.PrincipalActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        android:theme="@style/Theme.NoteApp.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#9C27B0"
+            android:elevation="0dp"
+            android:visibility="gone"
+            app:popupTheme="@style/Theme.NoteApp.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_principal" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="10dp"
+        app:menu_colorNormal="#9C27B0"
+        app:menu_colorPressed="#9C27B0"
+        fab:menu_icon="@drawable/ic_add_24">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_listaClientes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_list_people_24"
+            app:fab_colorNormal="#9C27B0"
+            app:fab_label="Ver Clientes"
+            android:onClick="irListaCliente"
+            app:fab_colorPressed="#9C27B0"
+            fab:fab_size="mini">
+
+        </com.github.clans.fab.FloatingActionButton>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_tarefa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_receipt_24"
+            app:fab_colorNormal="#9C27B0"
+            app:fab_label="Add Tarefa"
+            android:onClick="irAddTarefa"
+            app:fab_colorPressed="#9C27B0"
+            fab:fab_size="mini">
+
+        </com.github.clans.fab.FloatingActionButton>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person_24"
+            app:fab_colorNormal="#9C27B0"
+            app:fab_label="Add Cliente"
+            android:onClick="irAddCliente"
+            app:fab_colorPressed="#9C27B0"
+            fab:fab_size="mini">
+
+        </com.github.clans.fab.FloatingActionButton>
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

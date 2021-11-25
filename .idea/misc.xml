@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/drawable/ic_feito_24.xml" value="0.26461538461538464" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/drawable/ic_receipt_24.xml" value="0.26461538461538464" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/activity_adicionar_cliente.xml" value="0.264" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/activity_adicionar_tarefa.xml" value="0.264" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/activity_cadastro_activty.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/activity_lista_cliente.xml" value="0.4" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/activity_main.xml" value="0.2375" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/activity_principal.xml" value="0.4" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/content_principal.xml" value="0.536" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/fragment_lista_cliente.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/fragment_novo_cliente.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/fragment_tarefa.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/lista_adapter.xml" value="0.536" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/lista_adapter2.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/lista_nome_clientes.xml" value="0.4" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/layout/lista_tarefas.xml" value="0.4" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26461538461538464" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26461538461538464" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/mipmap-anydpi-v26/ic_logo1.xml" value="0.26461538461538464" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/mipmap-anydpi-v26/ic_logo1_round.xml" value="0.26461538461538464" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/mipmap-anydpi-v26/ic_logoNoteApp.xml" value="0.26461538461538464" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/mipmap-anydpi-v26/ic_logoNoteApp2_round.xml" value="0.26461538461538464" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/mipmap-anydpi-v26/ic_logoNoteApp3.xml" value="0.26461538461538464" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/mipmap-anydpi-v26/ic_logoNoteApp3_round.xml" value="0.26461538461538464" />
+        <entry key="..\:/Users/Pedro/Desktop/Projeto_NoteApp/app/src/main/res/mipmap-hdpi/ic_logo1_round1.xml" value="0.26461538461538464" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
