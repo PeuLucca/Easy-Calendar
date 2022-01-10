@@ -4,7 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="activity.ListaCliente">
+    tools:context="com.example0603.easycalendar.activity.ListaCliente">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="-5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtQnt"
+        app:srcCompat="@drawable/divisor" />
 
     <TextView
         android:id="@+id/txtInstrucoes"
@@ -31,49 +43,40 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:text="_________________________________________________________"
-        android:textColor="#C8C8C8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerTarefas"
-        android:layout_width="385dp"
-        android:layout_height="602dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="-3dp"
         app:layout_constraintBottom_toTopOf="@+id/txtInstrucoes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <TextView
         android:id="@+id/txtMensagem"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="26dp"
         android:text="Nenhum cliente salvo"
         android:textColor="#4C4C4C"
         android:textSize="19sp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/recyclerTarefas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+        app:layout_constraintEnd_toEndOf="@+id/recyclerTarefas"
+        app:layout_constraintStart_toStartOf="@+id/recyclerTarefas"
+        app:layout_constraintTop_toTopOf="@+id/recyclerTarefas" />
 
     <TextView
         android:id="@+id/txtQnt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
         android:layout_marginTop="-5dp"
         android:text="TextView"
         android:textColor="#454545"
         android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

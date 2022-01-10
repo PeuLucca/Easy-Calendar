@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="activity.AdicionarCliente">
+    tools:context="com.example0603.easycalendar.activity.AdicionarCliente">
 
     <EditText
         android:id="@+id/editCelular"
@@ -26,19 +26,20 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="212dp"
+        android:layout_marginStart="16dp"
         android:text="*"
         android:textColor="#3C3C3C"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/editNome"
+        app:layout_constraintEnd_toStartOf="@+id/editNome"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/editNome" />
 
     <TextView
         android:id="@+id/txtTitulo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
         android:text="Adicione novos clientes"
         android:textColor="#272727"
         android:textSize="23sp"
@@ -55,7 +56,7 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="50dp"
         android:ems="10"
-        android:hint="Telefone"
+        android:hint="Telefone  ex: 1934123456"
         android:inputType="textPersonName|phone"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,11 +82,10 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="104dp"
+        android:layout_marginTop="8dp"
         android:text="* Campos obrigatórios"
         android:textColor="#3C3C3C"
         android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -96,7 +96,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="212dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="40dp"
         android:ems="10"
         android:hint="Nome completo"
@@ -105,7 +105,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
 
     <EditText
         android:id="@+id/editEmail"

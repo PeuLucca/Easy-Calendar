@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.noteapp">
+    package="com.example0603.easycalendar">
 
     <application
         android:allowBackup="true"
@@ -11,29 +11,29 @@
         android:theme="@style/Theme.NoteApp">
         <activity
             android:screenOrientation="portrait"
-            android:name="activity.ListaCliente"
+            android:name="com.example0603.easycalendar.activity.ListaCliente"
             android:exported="false" />
         <activity
             android:screenOrientation="portrait"
-            android:name="activity.AdicionarTarefa"
+            android:name="com.example0603.easycalendar.activity.AdicionarTarefa"
             android:exported="false" />
         <activity
             android:screenOrientation="portrait"
-            android:name="activity.AdicionarCliente"
+            android:name="com.example0603.easycalendar.activity.AdicionarCliente"
             android:exported="false" />
         <activity
             android:screenOrientation="portrait"
-            android:name="activity.PrincipalActivity"
+            android:name="com.example0603.easycalendar.activity.PrincipalActivity"
             android:exported="false"
             android:label="@string/title_activity_principal"
             android:theme="@style/Theme.NoteApp.NoActionBar" />
         <activity
             android:screenOrientation="portrait"
-            android:name="activity.CadastroActivty"
+            android:name="com.example0603.easycalendar.activity.CadastroActivty"
             android:exported="false" />
         <activity
             android:screenOrientation="portrait"
-            android:name="activity.MainActivity"
+            android:name="com.example0603.easycalendar.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

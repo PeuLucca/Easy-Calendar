@@ -16,24 +16,24 @@
 
         <TextView
             android:id="@+id/textView8"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Easy Calendar"
+            android:text=" Easy Calendar"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             android:textSize="30dp"
             android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="Clique no dia para verificar seus compromissos"
+            android:text="Clique no dia para verificar seus compromissos   "
             android:textAlignment="textEnd"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -44,7 +44,7 @@
 
         <TextView
             android:id="@+id/txtNomeProprietario"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="8dp"
@@ -65,8 +65,8 @@
 
         <CalendarView
             android:id="@+id/calendarView"
-            android:layout_width="349dp"
-            android:layout_height="325dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             app:layout_constraintEnd_toEndOf="parent"
@@ -77,23 +77,23 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerTarefas"
-            android:layout_width="375dp"
-            android:layout_height="221dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="-3dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/calendarView"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
         <TextView
             android:id="@+id/txtSemtarefasHj"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sem tarefas hoje"
+            android:text="Sem tarefas"
             android:textSize="19sp"
             android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="@+id/recyclerTarefas"
@@ -101,15 +101,16 @@
             app:layout_constraintStart_toStartOf="@+id/recyclerTarefas"
             app:layout_constraintTop_toTopOf="@+id/recyclerTarefas" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="________________________________________________________"
-            android:textColor="#BDB5B5"
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/calendarView" />
+            app:layout_constraintTop_toBottomOf="@+id/calendarView"
+            app:srcCompat="@drawable/divisor" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imgApagarTarefa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toStartOf="@+id/imgAtualizarTarefa"
@@ -26,7 +26,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
-        android:text="Nome do usuário"
+        android:text="Nome do cliente"
         android:textColor="#1B1B1B"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -38,8 +38,8 @@
 
     <TextView
         android:id="@+id/txtDataCompleta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:text="06/03/2022"
@@ -49,22 +49,23 @@
 
     <TextView
         android:id="@+id/txtHorarioCompleto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="8dp"
         android:text="Horário: 15:35"
         android:textSize="14sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtDataCompleta" />
 
     <ImageView
         android:id="@+id/imgCallTelefone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="15dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/txtDataCompleta"
         app:layout_constraintTop_toBottomOf="@+id/txtNomeCompleto"
         app:srcCompat="@drawable/ic_phone_in_talk_24" />
 
@@ -72,39 +73,41 @@
         android:id="@+id/txtCelularCompleto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="190dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="16dp"
         android:text="55 19971100603"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgCallCelular"
         app:layout_constraintTop_toBottomOf="@+id/txtTelefoneCompleto" />
 
     <ImageView
         android:id="@+id/imgCallCelular"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/txtHorarioCompleto"
         app:layout_constraintTop_toBottomOf="@+id/imgCallTelefone"
         app:srcCompat="@drawable/ic_phone_24" />
 
     <TextView
         android:id="@+id/txtTelefoneCompleto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="190dp"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="15dp"
         android:text="1933013761"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgCallTelefone"
         app:layout_constraintTop_toBottomOf="@+id/txtNomeCompleto" />
 
     <TextView
         android:id="@+id/txtRemarcar_Confirmar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
         android:layout_marginTop="32dp"
-        android:text="Clique para remarcar com o cliente"
+        android:text="Clique aqui para remarcar com o cliente"
+        android:textAlignment="center"
         android:textSize="14sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -113,8 +116,8 @@
 
     <ImageView
         android:id="@+id/imgAtualizarTarefa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -141,8 +144,8 @@
 
     <TextView
         android:id="@+id/txtStatus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="18dp"
         android:layout_marginStart="8dp"
         android:text="Não feita"
         android:textColor="#000000"
@@ -154,8 +157,8 @@
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
         android:layout_marginStart="20dp"
         android:text="Status:"
         app:layout_constraintBottom_toTopOf="@+id/txtRemarcar_Confirmar"

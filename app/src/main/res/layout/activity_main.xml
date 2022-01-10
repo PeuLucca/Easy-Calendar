@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#9C27B0"
-    tools:context="activity.MainActivity">
+    tools:context="com.example0603.easycalendar.activity.MainActivity">
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Insira seu nome de usuário"
+        android:textAlignment="center"
         android:textColor="#E6DEDE"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +43,7 @@
         android:layout_marginTop="48dp"
         android:layout_marginEnd="30dp"
         android:ems="10"
-        android:hint="ex Abel Ferreira"
+        android:hint="ex Fábio da Silva"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColor="#F3EFEF"
@@ -56,7 +57,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="504dp"
+        android:layout_width="0dp"
         android:layout_height="187dp"
         android:layout_marginTop="70dp"
         android:scaleType="fitCenter"
